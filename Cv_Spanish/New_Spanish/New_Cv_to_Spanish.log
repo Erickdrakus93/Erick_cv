@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.10.24)  21 MAR 2020 18:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2019.10.24)  21 MAR 2020 18:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**CV_Erick_HN.tex
-(./CV_Erick_HN.tex
+**New_Cv_to_Spanish.tex
+(./New_Cv_to_Spanish.tex
 LaTeX2e <2018-12-01>
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -29,11 +29,8 @@ Package: babel 2019/06/03 3.32 The Babel package
 (/usr/share/texlive/texmf-dist/tex/generic/babel/switch.def
 File: switch.def 2019/06/03 3.32 Babel switching mechanism
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/USenglish.ldf
-Language: USenglish 2017/06/06 v3.3r English support from the babel system
-
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
-Language: english 2017/06/06 v3.3r English support from the babel system
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2019/06/03 3.32 Babel common definitions
@@ -43,14 +40,17 @@ File: babel.def 2019/06/03 3.32 Babel common definitions
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@dirlevel=\count90
 )
-\l@canadian = a dialect from \language\l@american 
-\l@australian = a dialect from \language\l@british 
-\l@newzealand = a dialect from \language\l@british 
-)))
+\es@quottoks=\toks14
+\es@quotdepth=\count91
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks14
-\inpenc@posthook=\toks15
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/latin1.def
 File: latin1.def 2018/08/11 v1.3c Input encoding file
@@ -63,7 +63,7 @@ Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
 \col@sep=\dimen104
 \ar@mcellbox=\box27
 \extrarowheight=\dimen105
-\NC@list=\toks16
+\NC@list=\toks17
 \extratabsurround=\skip43
 \backup@length=\skip44
 \ar@cellbox=\box28
@@ -79,25 +79,25 @@ Package color Info: Driver file: pdftex.def on input line 147.
 (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
-\everycr=\toks17
+\everycr=\toks18
 \minrowclearance=\skip45
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
-\enitkv@toks@=\toks18
+\enitkv@toks@=\toks19
 \labelindent=\skip46
 \enit@outerparindent=\dimen106
-\enit@toks=\toks19
+\enit@toks=\toks20
 \enit@inbox=\box29
-\enit@count@id=\count91
-\enitdp@description=\count92
+\enit@count@id=\count92
+\enitdp@description=\count93
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks20
+\KV@toks@=\toks21
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
@@ -113,8 +113,8 @@ Package graphics Info: Driver file: pdftex.def on input line 99.
 \Gin@req@height=\dimen107
 \Gin@req@width=\dimen108
 )
-(./CV_Erick_HN.aux)
-\openout1 = `CV_Erick_HN.aux'.
+(./New_Cv_to_Spanish.aux)
+\openout1 = `New_Cv_to_Spanish.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
@@ -128,20 +128,22 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count93
+\scratchcounter=\count94
 \scratchdimen=\dimen109
 \scratchbox=\box30
-\nofMPsegments=\count94
-\nofMParguments=\count95
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count96
+\nofMPsegments=\count95
+\nofMParguments=\count96
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count97
 \MPscratchDim=\dimen110
-\MPnumerator=\count97
-\makeMPintoPDFobject=\count98
-\everyMPtoPDFconversion=\toks22
+\MPnumerator=\count98
+\makeMPintoPDFobject=\count99
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -197,43 +199,31 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 20.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 20.
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 44.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 44.
-
-Overfull \hbox (7.29384pt too wide) in paragraph at lines 60--60
-[]|\OT1/cmr/bx/n/10 ProgrammingLanguages| 
+Underfull \hbox (badness 3209) in paragraph at lines 60--60
+[]|\OT1/cmr/bx/n/10 Lengujes de Pro-gra-
  []
 
-! Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.62 ...the context of Document Object Model DOM &
-                                                   \vspace{-2mm}
+! Missing $ inserted.
+<inserted text> 
+                $
+l.85 \textbf{Lenguajes} & \textbf{Español:}
+                                             lengua natural.\\
 ? 
-[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./CV_Erick_HN.aux) ) 
+! Emergency stop.
+<inserted text> 
+                $
+l.85 \textbf{Lenguajes} & \textbf{Español:}
+                                             lengua natural.\\
+End of file on the terminal!
+
+ 
 Here is how much of TeX's memory you used:
- 2509 strings out of 492609
- 36446 string characters out of 6131461
- 121569 words of memory out of 5000000
- 6400 multiletter control sequences out of 15000+600000
+ 2876 strings out of 492609
+ 40949 string characters out of 6131461
+ 126418 words of memory out of 5000000
+ 6777 multiletter control sequences out of 15000+600000
  4834 words of font info for 18 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,25p,278b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
-</u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on CV_Erick_HN.pdf (1 page, 77718 bytes).
-PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 41i,13n,31p,284b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

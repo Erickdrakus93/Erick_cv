@@ -1,0 +1,200 @@
+%! Author = erick-hdz
+%! Date = 21/03/20
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% LaTeX Template: Curriculum Vitae
+%
+% Source: http://www.howtotex.com/
+% Feel free to distribute this template, but please keep the
+% referal to HowToTeX.com.
+% Date: July 2011
+%Version for spanish users, by dgarhdez
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% How to use writeLaTeX:
+%
+% You edit the source code here on the left, and the preview on the
+% right shows you the result within a few seconds.
+%
+% Bookmark this page and share the URL with your co-authors. They can
+% edit at the same time!
+%
+% You can upload figures, bibliographies, custom classes and
+% styles using the files menu.
+%
+% If you're new to LaTeX, the wikibook is a great place to start:
+% http://en.wikibooks.org/wiki/LaTeX
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[paper=a4,fontsize=11pt]{scrartcl} % KOMA-article class
+
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[protrusion=true,expansion=true]{microtype}
+\usepackage{amsmath,amsfonts,amsthm}     % Math packages
+\usepackage{graphicx}                    % Enable pdflatex
+\usepackage[svgnames]{xcolor}            % Colors by their 'svgnames'
+\usepackage{geometry}
+	\textheight=700px                    % Saving trees ;-)
+\usepackage{url}
+
+\frenchspacing              % Better looking spacings after periods
+\pagestyle{empty}           % No pagenumbers/headers/footers
+
+%%% Custom sectioning (sectsty package)
+%%% ------------------------------------------------------------
+\usepackage{sectsty}
+
+\sectionfont{%			            % Change font of \section command
+	\usefont{OT1}{phv}{b}{n}%		% bch-b-n: CharterBT-Bold font
+	\sectionrule{0pt}{0pt}{-5pt}{1pt}}
+
+%%% Macros
+%%% ------------------------------------------------------------
+\newlength{\spacebox}
+\settowidth{\spacebox}{8888888888}			% Box to align text
+\newcommand{\sepspace}{\vspace*{1em}}		% Vertical space macro
+
+\newcommand{\MyName}[1]{ % Name
+		\Huge \usefont{OT1}{phv}{b}{n} \hfill #1
+		\par \normalsize \normalfont}
+
+\newcommand{\MySlogan}[1]{ % Slogan (optional)
+		\large \usefont{OT1}{phv}{m}{n}\hfill \textit{#1}
+		\par \normalsize \normalfont}
+
+\newcommand{\NewPart}[1]{\section*{\uppercase{#1}}}
+
+\newcommand{\PersonalEntry}[2]{
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}		       % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\SkillsEntry}[2]{      % Same as \PersonalEntry
+		\noindent\hangindent=2em\hangafter=0 % Indentation
+		\parbox{\spacebox}{        % Box to align text
+		\textit{#1}}			   % Entry name (birth, address, etc.)
+		\hspace{1.5em} #2 \par}    % Entry value
+
+\newcommand{\EducationEntry}[4]{
+		\noindent \textbf{#1} \hfill      % Study
+		\colorbox{White}{%
+			\parbox{5cm}{%
+			\hfill\color{Black}#2}} \par  % Duration
+		\noindent \textit{#3} \par        % School
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+\newcommand{\WorkEntry}[4]{				  % Same as \EducationEntry
+		\noindent \textbf{#1} \hfill      % Jobname
+		\noindent\colorbox{Black}{\color{White}#2} \par  % Duration
+		\noindent \textit{#3} \par              % Company
+		\noindent\hangindent=2em\hangafter=0 \small #4 % Description
+		\normalsize \par}
+
+%%% Begin Document
+%%% ------------------------------------------------------------
+\begin{document}
+% you can upload a photo and include it here...
+% \begin{wrapfigure}{l}{0.5\textwidth}
+%	\vspace*{-2em}
+%		\includegraphics[width=0.15\textwidth]{photo}
+% \end{wrapfigure}
+
+\MyName{Erick Hernandez Navarrete}
+\MySlogan{Licenciatura en Matematicas y Ciencias de la Computacion}
+
+\sepspace
+
+%%% Personal details
+%%% ------------------------------------------------------------
+\NewPart{Datos personales}{}
+
+%\PersonalEntry{Nacimiento}{20 de Junio, 1993}
+%\PersonalEntry{Address}{111 First St, New York}
+\PersonalEntry{Teléfono}{(+55) 50673174}
+\PersonalEntry{E--Mail}{\url{erikh93@ciencias.unam.mx}}
+
+%%% Education
+%%% ------------------------------------------------------------
+\NewPart{Educación}{}
+
+\EducationEntry{Licenciatura en Matematicas}{2011-2015}{Universidad Nacional Autonoma de Mexico}{
+\begin{itemize}
+\item{Modelos de Computo Formal}
+\item{Teoria de Nudos, Analisis de Algoritmos, Ingenieria de Software}
+\item{Proyecto de fin de carrera: \emph{Mapeo entre el Modelo de la maquina de Turing y Modelo LOCAL de Computo Distroibuido}}
+\end{itemize}
+}
+\EducationEntry{Maestria en ciencias de la Computacion}{2016-present}{Universidad Nacional Autonoma de Mexico}{
+\begin{itemize}
+	\item Modelos de Computo
+	\item Analisis de Algoritmos
+	\item Compiladores y lenguajes de Programación
+	\item Inteligencia Artificial
+\end{itemize}
+}
+\sepspace
+
+\EducationEntry{Escuelas de Nudos y 3-Variedades}{Diciembre 2014,2015,2016}{CIMAT-Guanajuato}{Implementacion de Conocimiento Matematico,Razonamiento}
+
+%%% Work experience
+%%% ------------------------------------------------------------
+\NewPart{Experiencia laboral}{}
+\EducationEntry{Ayudante de Asignatura}{2014-2019}{Facultad de Ciencias de la UNAM}{
+\begin{itemize}
+	\item Clases de diversas materias de la facultad de ciencias de la UNAM
+	\item Calificación de Examenes de las mismas materias
+\end{itemize}
+}
+\EducationEntry{Desarrollador Backend}{2018-actualmente}{Inteligencia Capital-Finbitz}{
+\begin{itemize}
+\item{Capas de Software para la simulación e implementación de Optimizacion de Portafolios de Inversión}
+\item{Desarrollo de Arquitecturas de Cómputo RESTful asi como el desarrollo de APIS internas}
+\item{Creación y mantenimiento de Bases de Datos en POSTGRESQL}
+\end{itemize}
+}
+\sepspace
+
+%\EducationEntry{Título trabajo 2}{Periodo}{Empresa}{Descripción, habilidades}
+
+%%% Skills
+%%% ------------------------------------------------------------
+\NewPart{Habilidades personales}{}
+
+\SkillsEntry{Idiomas}{Español (nativo)}
+\SkillsEntry{}{Inglés (nivel Intermedio-Avanzado).}
+\SkillsEntry{}{Francés (nivel Basico)}
+
+\SkillsEntry{Algoritmos}{Analisis}
+\SkillsEntry{}{Correccion}
+\SkillsEntry{}{Complejidad}
+\SkillsEntry{Software}{C,C++,Java,Python,Lisp,Javascript}
+\SkillsEntry{OS}{Forks de Linux tales como son}
+\SkillsEntry{}{Debian, Ubuntu, Kubuntu}
+\SkillsEntry{}{OS de windows tales como vista, xp, WSGI, 10}
+\SkillsEntry{}{Unix}
+\SkillsEntry{OSI}{Capas de OSI}
+\SkillsEntry{}{Transporte}
+\SkillsEntry{}{Comunicacion}
+\SkillsEntry{}{Data}
+\SkillsEntry{}{Red}
+\SkillsEntry{}{Física}
+\SkillsEntry{}{Frameworks WEB y lenguajes}
+\SkillsEntry{}{HTML}
+\SkillsEntry{}{XML}
+\SkillsEntry{}{JavaScript}
+\SkillsEntry{BD}{POSTGRESQL,MYSQL,SQL}
+\SkillsEntry{Ejecución}{Flexibilidad y adaptación ante cambios en el proyecto}
+%\SkillsEntry{}{Gran capacidad de comunicación}
+\SkillsEntry{Razonamiento}{Análisis y resolución de problemas}
+%\SkillsEntry{}{}
+
+
+
+%%% References
+%%% ------------------------------------------------------------
+%\NewPart{References}{}
+%Available upon request
+\end{document}

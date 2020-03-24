@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8cf9f7-b609-4938-a73c-93226daf167c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/CV_Erick_HN_Spanish.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/CV_Erick_HN_Spanish.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/New_Spanish/New_Cv_to_Spanish.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/New_Spanish/New_Cv_to_Spanish.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/New_Spanish/New_Cv_to_Spanish.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/New_Spanish/New_Cv_to_Spanish.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.aux" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.tex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Erick_HN.log" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Erick_HN.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Erick_HN.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Erick_HN.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CV_Erick_HN.tex" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Erick_HN.tex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Cv_Spanish/CV_Erick_HN_Spanish.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/CV_Erick_HN_Spanish.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +62,7 @@
       <workItem from="1584771405242" duration="2487000" />
       <workItem from="1584820633049" duration="647000" />
       <workItem from="1584821984839" duration="6957000" />
-      <workItem from="1584833082578" duration="8110000" />
+      <workItem from="1584833082578" duration="8837000" />
     </task>
     <servers />
   </component>
@@ -91,10 +77,10 @@
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="212" y="294" key="Github.ShareDialog/54.27.1312.741@54.27.1312.741" timestamp="1584771433982" />
-    <state x="54" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1584833082109">
+    <state x="54" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585009162844">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state x="54" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741@54.27.1312.741" timestamp="1584833082109" />
+    <state x="54" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741@54.27.1312.741" timestamp="1585009162844" />
     <state x="373" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584838545804">
       <screen x="54" y="27" width="1312" height="741" />
     </state>

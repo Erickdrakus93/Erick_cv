@@ -3,6 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="de8cf9f7-b609-4938-a73c-93226daf167c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +66,7 @@
       <workItem from="1584820633049" duration="647000" />
       <workItem from="1584821984839" duration="6957000" />
       <workItem from="1584833082578" duration="8837000" />
+      <workItem from="1585252024066" duration="233000" />
     </task>
     <servers />
   </component>
@@ -73,14 +77,18 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="65" y="128" width="624" height="545" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585252035799">
+      <screen x="54" y="27" width="1312" height="741" />
+    </state>
+    <state x="65" y="128" width="624" height="545" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/54.27.1312.741@54.27.1312.741" timestamp="1585252035799" />
     <state x="212" y="294" key="Github.ShareDialog" timestamp="1584771433982">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
     <state x="212" y="294" key="Github.ShareDialog/54.27.1312.741@54.27.1312.741" timestamp="1584771433982" />
-    <state x="54" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585009162844">
+    <state x="54" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1585252026080">
       <screen x="54" y="27" width="1312" height="741" />
     </state>
-    <state x="54" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741@54.27.1312.741" timestamp="1585009162844" />
+    <state x="54" y="225" key="com.intellij.ide.util.TipDialog/54.27.1312.741@54.27.1312.741" timestamp="1585252026080" />
     <state x="373" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1584838545804">
       <screen x="54" y="27" width="1312" height="741" />
     </state>

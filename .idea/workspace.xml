@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8cf9f7-b609-4938-a73c-93226daf167c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.tex" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.tex" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,18 +37,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -64,11 +56,12 @@
       <workItem from="1584821984839" duration="6957000" />
       <workItem from="1584833082578" duration="8837000" />
       <workItem from="1585252024066" duration="476000" />
+      <workItem from="1592953239483" duration="1845000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

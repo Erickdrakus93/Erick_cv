@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de8cf9f7-b609-4938-a73c-93226daf167c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Erick_HN.log" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Erick_HN.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Erick_HN.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Erick_HN.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CV_Erick_HN.tex" beforeDir="false" afterPath="$PROJECT_DIR$/CV_Erick_HN.tex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/Cv_Spanish/other_format_cv /Cv_new_format.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="317a7ec3-1bfa-4478-aa31-34daeced2198" />
   <component name="ProjectId" id="1WKOTVvNV8smRXkSQ3yvfcIKdcY" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -36,6 +41,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -55,11 +61,12 @@
       <workItem from="1585252024066" duration="476000" />
       <workItem from="1592953239483" duration="2227000" />
       <workItem from="1593308098666" duration="653000" />
+      <workItem from="1596561230489" duration="284000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
